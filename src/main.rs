@@ -29,7 +29,7 @@ fn parse(args: &mut Vec<String>, stdout: &mut StdoutLock) -> Result<Vec<String>,
             break;
         }
     }
-    return args;
+    return Ok((args).to_vec());
 }
 
 

@@ -26,7 +26,7 @@
       localSystem:
       let
         # Replace with the system you want to build for
-        crossSystem = "aarch64-linux";
+        crossSystem = "x86_64-linux";
 
         pkgs = import nixpkgs {
           inherit crossSystem localSystem;
