@@ -13,8 +13,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "cross-rust-overlay"
-version = "0.1.0"
+name = "ekho"
+version = "0.0.1"
 dependencies = [
  "openssl-sys",
 ]
